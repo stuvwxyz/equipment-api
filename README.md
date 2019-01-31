@@ -1,5 +1,6 @@
 # equipment-api
 
+## ICS 370 - class project
 
 ##Local Development
 
