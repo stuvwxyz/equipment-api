@@ -1,0 +1,101 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1.1
+      author: stuvwxyz
+      changes:
+       - insert:
+          columns:
+            - column:
+                name: equipment_name
+                value: "Tiller"
+            - column:
+                name: equipment_available
+                value: TRUE
+            - column:
+                name: equipment_cost
+                value: "$20 per week"
+            - column:
+                name: equipment_description
+                value: "Front Tines 1/2 HP Tiller"
+            - column:
+                name: equipment_owner
+                value: "Jim Johnson"
+            - column:
+                name: equipment_owner_phone
+                value: "651-123-4567"
+            - column:
+                name: equipment_owner_email
+                value: "jim.johnson@mail.com"
+          tableName: equipment
+       - insert:
+           columns:
+             - column:
+                 name: equipment_name
+                 value: "Tiller"
+             - column:
+                 name: equipment_available
+                 value: TRUE
+             - column:
+                 name: equipment_cost
+                 value: "$20 per week"
+             - column:
+                 name: equipment_description
+                 value: "Front Tines 1/2 HP Tiller"
+             - column:
+                 name: equipment_owner
+                 value: "Jim Johnson"
+             - column:
+                 name: equipment_owner_phone
+                 value: "651-123-4567"
+             - column:
+                 name: equipment_owner_email
+                 value: "jim.johnson@mail.com"
+           tableName: equipment
+       - insert:
+           columns:
+             - column:
+                 name: equipment_name
+                 value: "Tiller"
+             - column:
+                 name: equipment_available
+                 value: TRUE
+             - column:
+                 name: equipment_cost
+                 value: "$20 per week"
+             - column:
+                 name: equipment_description
+                 value: "Front Tines 1/2 HP Tiller"
+             - column:
+                 name: equipment_owner
+                 value: "Jim Johnson"
+             - column:
+                 name: equipment_owner_phone
+                 value: "651-123-4567"
+             - column:
+                 name: equipment_owner_email
+                 value: "jim.johnson@mail.com"
+           tableName: equipment
+       - insert:
+           columns:
+             - column:
+                 name: equipment_name
+                 value: "Tiller"
+             - column:
+                 name: equipment_available
+                 value: TRUE
+             - column:
+                 name: equipment_cost
+                 value: "$20 per week"
+             - column:
+                 name: equipment_description
+                 value: "Front Tines 1/2 HP Tiller"
+             - column:
+                 name: equipment_owner
+                 value: "Jim Johnson"
+             - column:
+                 name: equipment_owner_phone
+                 value: "651-123-4567"
+             - column:
+                 name: equipment_owner_email
+                 value: "jim.johnson@mail.com"
+           tableName: equipment
