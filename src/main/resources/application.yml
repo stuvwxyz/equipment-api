@@ -23,3 +23,15 @@ spring:
 
   liquibase:
     change-log: classpath:/db/changelog/master.yml
+
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: 0oaj46fad5TzDaHvE0h7
+            client-secret: SQU1-DBPsdQEOu_k8t_dhEPzXm0G2VPkYUrmEI2Q
+            scope: openid, email, profile
+        provider:
+          okta:
+            issuer-uri: https://dev-879532.oktapreview.com/oauth2/default
