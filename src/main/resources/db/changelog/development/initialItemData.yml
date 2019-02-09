@@ -31,71 +31,71 @@ databaseChangeLog:
            columns:
              - column:
                  name: equipment_name
-                 value: "Tiller"
+                 value: "Trailer"
              - column:
                  name: equipment_available
                  value: TRUE
              - column:
                  name: equipment_cost
-                 value: "$20 per week"
+                 value: "$15 per day"
              - column:
                  name: equipment_description
-                 value: "Front Tines 1/2 HP Tiller"
+                 value: "1500 pounds capacity"
              - column:
                  name: equipment_owner
-                 value: "Jim Johnson"
+                 value: "Jill Jefferson"
              - column:
                  name: equipment_owner_phone
                  value: "651-123-4567"
              - column:
                  name: equipment_owner_email
-                 value: "jim.johnson@mail.com"
+                 value: "jill.jefferson@mail.com"
            tableName: equipment
        - insert:
            columns:
              - column:
                  name: equipment_name
-                 value: "Tiller"
+                 value: "Cyramic Tile Saw"
              - column:
                  name: equipment_available
                  value: TRUE
              - column:
                  name: equipment_cost
-                 value: "$20 per week"
+                 value: "$25 per month"
              - column:
                  name: equipment_description
-                 value: "Front Tines 1/2 HP Tiller"
+                 value: "Can work with tiles up to 24 inches and 2 inches thick"
              - column:
                  name: equipment_owner
-                 value: "Jim Johnson"
+                 value: "Jeremy Jorgens"
              - column:
                  name: equipment_owner_phone
                  value: "651-123-4567"
              - column:
                  name: equipment_owner_email
-                 value: "jim.johnson@mail.com"
+                 value: "jeremy.jorgens@mail.com"
            tableName: equipment
        - insert:
            columns:
              - column:
                  name: equipment_name
-                 value: "Tiller"
+                 value: "Hammer Drill"
              - column:
                  name: equipment_available
                  value: TRUE
              - column:
                  name: equipment_cost
-                 value: "$20 per week"
+                 value: "$5 per day"
              - column:
                  name: equipment_description
-                 value: "Front Tines 1/2 HP Tiller"
+                 value: "1/2 HP drill for concrete "
              - column:
                  name: equipment_owner
-                 value: "Jim Johnson"
+                 value: "Jennifer Jimmerson"
              - column:
                  name: equipment_owner_phone
                  value: "651-123-4567"
              - column:
                  name: equipment_owner_email
-                 value: "jim.johnson@mail.com"
+                 value: "jennifer.jimmerson@mail.com"
            tableName: equipment
