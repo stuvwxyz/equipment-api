@@ -19,7 +19,7 @@ databaseChangeLog:
                   type: VARCHAR(255)
               - column:
                   name: equipment_available
-                  type: BOOLEAN
+                  type: VARCHAR(255)
               - column:
                   name: equipment_cost
                   type: VARCHAR(255)
@@ -36,11 +36,3 @@ databaseChangeLog:
                   name: equipment_owner_email
                   type: VARCHAR(255)
             tableName: equipment
-  - changeSet:
-      id: 2
-      author: stuvwxyz
-      changes:
-        - modifyDataType:
-            columnName: equipment_available
-            newDataType: VARCHAR(255)
-            tableName: character
