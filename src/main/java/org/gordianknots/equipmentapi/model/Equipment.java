@@ -14,7 +14,7 @@ public class Equipment {
     @ReadOnlyProperty
     private Long equipmentId;
     private String equipmentName;
-    private Boolean equipmentAvailable;
+    private String equipmentAvailable;
     private String equipmentCost;
     private String equipmentDescription;
     private String equipmentOwner;
@@ -37,11 +37,11 @@ public class Equipment {
         this.equipmentName = equipmentName;
     }
 
-    public Boolean getequipmentAvailable() {
+    public String getequipmentAvailable() {
         return equipmentAvailable;
     }
 
-    public void setequipmentAvailable(Boolean equipmentAvailable) {
+    public void setequipmentAvailable(String equipmentAvailable) {
         this.equipmentAvailable = equipmentAvailable;
     }
 
